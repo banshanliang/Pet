@@ -1,0 +1,199 @@
+/* shopcar.css  购物车CSS */
+
+body {
+    font-family: Microsoft YaHei, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/* 顶部导航开始 */
+
+.shopcar-header {
+    background: linear-gradient(#f2f2f2, #fbfbfb, #f2f2f2);
+    display: flex;
+    padding: 10px;
+}
+
+.shopcar-header .shopcar-header-back {
+    flex-grow: 1;
+}
+
+.shopcar-header .shopcar-header-back .shopcar-header-back-icon {
+    font-size: 25px;
+}
+
+.shopcar-header .shopcar-header-caption {
+    flex-grow: 1;
+    color: #000;
+    font-size: 20px;
+}
+
+/* 顶部导航结束 */
+
+/* 产品列表开始 */
+
+.shopcar-product-list {
+    width: 100%;
+    padding: 3px;
+}
+
+/* 产品列表-单号栏 */
+
+.shopcar-product-list .shopcar-product-num {
+    display: flex;
+    padding: 4px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #f2f2f2;
+    color: gray;
+}
+
+.shopcar-product-list .shopcar-product-num .shopcar-product-num-left {
+    flex-grow: 1;
+    font-size: 13px;
+    text-indent: 1em;
+}
+
+.shopcar-product-list .shopcar-product-num .shopcar-product-num-right {
+    padding-right: 8px;
+}
+
+.shopcar-product-list .shopcar-product-num .shopcar-product-num-right .shopcar-product-num-right-delete-icon {
+    font-size: 17px;
+}
+
+/* 产品区块 */
+
+.shopcar-product-area {
+    width: 100%;
+    border-bottom: 3px solid#e6e6e6;
+}
+
+.shopcar-product-area .shopcar-product-area-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 5px 0 5px 0;
+    box-sizing: border-box;
+}
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-choose {
+    width: 8%;
+    text-align: center;
+}
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-choose .shopcar-product-area-item-choose-chk {
+    width: 15px;
+    height: 15px;
+}
+
+/* 产品图片区域 */
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-img {
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+}
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-img .shopcar-product-area-item-img-item {
+    width: 90px;
+    height: 90px;
+}
+
+/* 产品信息区域 */
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-desc {
+    width: 67%;
+    padding-left: 4px;
+}
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-desc .shopcar-product-area-item-desc-name {
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-desc .shopcar-product-area-item-desc-shuxing {
+    font-size: 12px;
+    color: gray;
+    padding: 4px;
+}
+
+/* 产品价格区域 */
+
+.shopcar-product-area .shopcar-product-area-item .shopcar-product-area-item-desc .shopcar-product-area-item-desc-price {
+    display: flex;
+}
+
+.shopcar-product-area-item-desc-price-left {
+    color: red;
+    flex-grow: 1;
+    font-size: 15px;
+}
+
+.shopcar-product-area-item-desc-price-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopcar-product-area-item-desc-price-right-num {
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin: 0 4px 0 4px;
+    text-align: center;
+}
+
+.shopcar-product-area-item-desc-price-right-cut {
+    font-size: 15px;
+    color: dimgray;
+}
+
+.shopcar-product-area-item-desc-price-right-add {
+    font-size: 15px;
+    color: dimgray;
+}
+
+/* 产品列表结束 */
+
+/* 结算开始 */
+
+.shopcar-pay {
+    width: 100%;
+    display: flex;
+    position: fixed;
+    bottom: 50px;
+    height: 38px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.shopcar-pay .shopcar-pay-left {
+    width: 20%;
+    text-align: center;
+    background-color: #d9d9d9;
+    /* 居中的两种方式之一 */
+    height: 35px;
+    line-height: 35px;
+}
+
+/* .shopcar-pay .shopcar-pay-left .shopcar-pay-left-chk {} */
+
+.shopcar-pay .shopcar-pay-center {
+    width: 60%;
+    text-align: center;
+    color: orange;
+    /* 居中的两种方式之一 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopcar-pay .shopcar-pay-right {
+    width: 20%;
+    text-align: center;
+    color: #fff;
+    background-color: orangered;
+    height: 35px;
+    line-height: 35px;
+}
+
+/* 结算结束 */

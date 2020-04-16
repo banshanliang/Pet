@@ -1,0 +1,15 @@
+.body {
+    margin: 0;
+    font-family: Arial, "微软雅黑";
+    color: #666;
+    position: relative;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}

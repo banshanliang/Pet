@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>商城-首页</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1651186_3f2etgwzmei.css">
+    <link rel="stylesheet" href="./css/bottom-menu.css">
+    <script src="./js/vue2.2.2.min.js"></script>
+    <script src="./js/axios.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <!-- 查询 -->
+        <div class="search">
+            <input class="search-terms" type="text" placeholder="请输入要查询的内容" />
+            <button class="search-terms-bt">
+            <i class="iconfont icon-query"></i>
+        </button>
+        </div>
+
+        <!-- 轮播图 -->
+        <div class="lunbo">
+            <img src="./img/adv2.png" alt="" class="lunbo_img">
+        </div>
+
+        <!-- 导航快捷菜单 -->
+        <div class="menu">
+            <a href="./index-classify-shuiguo.html" class="menu-item">
+                <i class="iconfont icon-shuiguo1"></i>
+                <p class="menu-name">水果</p>
+            </a>
+            <a href="./index-classify-yinpin.html" class="menu-item">
+                <i class="iconfont icon-jiushuiyinpin1"></i>
+                <p class="menu-name">饮品</p>
+            </a>
+            <a href="./index-classify-shiwu.html" class="menu-item">
+                <i class="iconfont icon-shipin"></i>
+                <p class="menu-name">食品</p>
+            </a>
+            <a href="./index-classify-xihu.html" class="menu-item">
+                <i class="iconfont icon-xihuyongpin1"></i>
+                <p class="menu-name">洗护</p>
+            </a>
+            <a href="./index-classify-youhui.html" class="menu-item">
+                <i class="iconfont icon-youhui1"></i>
+                <p class="menu-name">优惠</p>
+            </a>
+
+        </div>
+
+        <!-- 最新通知 -->
+        <div class="message">
+            <a href="#" class="message-link">
+                <i class="iconfont i-left icon-icon_notice"></i>
+                <p class="message-txt">2020年五一放假通知</p>
+                <i class="iconfont i-right icon-tongzhi-jiantou"></i>
+            </a>
+
+        </div>
+
+        <!-- 区块标题 -->
+        <div class="area">
+            <p class="area-left"></p>
+            <p class="area-name">最新上架</p>
+            <a href="#" class="area-link">
+            更多
+            <i class="iconfont icon-tongzhi-jiantou"></i>
+        </a>
+        </div>
+
+        <!-- 最新上架产品 -->
+        <div class="products-list">
+            <a href="#" class="product-item">
+                <img src="./img/p1.jpg" alt="" class="product-img">
+                <p class="product-name">立顿/Lipton 经典醇香浓原味 冲饮奶茶速溶装40包/袋冲调饮品</p>
+                <p class="product-price">￥40.00</p>
+            </a>
+            <a href="#" class="product-item">
+                <img src="./img/p2.jpg" alt="" class="product-img">
+                <p class="product-name">自嗨锅冲泡螺蛳粉1146g/6桶懒人方便速食即食6桶整箱 </p>
+                <p class="product-price">￥69.90</p>
+            </a>
+            <a href="#" class="product-item">
+                <img src="./img/p3.jpg" alt="" class="product-img">
+                <p class="product-name">力士洗发水 水润丝滑洗发水750ml*2 洗护套装 蕴含玻尿酸去头屑 </p>
+                <p class="product-price">￥89.90</p>
+            </a>
+            <a href="#" class="product-item">
+                <img src="./img/p4.jpg" alt="" class="product-img">
+                <p class="product-name">御泥坊果莓面膜 深层补水保湿 修护肌肤屏障 面膜贴正品抖音爆款</p>
+                <p class="product-price">￥79.0</p>
+            </a>
+        </div>
+
+        <!-- 区块标题 -->
+        <div class="area">
+            <p class="area-left"></p>
+            <p class="area-name">精品推荐</p>
+            <a href="#" class="area-link">
+            更多
+            <i class="iconfont icon-tongzhi-jiantou"></i>
+        </a>
+        </div>
+
+        <!-- 精品推荐 -->
+        <div class="products2-list">
+            <a href="#" class="product2-item">
+                <img src="./img/n1.jpg" alt="" class="product2-img">
+                <p class="product2-name">【蓝钻】惠氏启赋亲和人体3段幼儿配方奶粉900g </p>
+                <p class="product2-price">￥339.00</p>
+            </a>
+            <a href="#" class="product2-item">
+                <img src="./img/n2.jpg" alt="" class="product2-img">
+                <p class="product2-name">百草味精制猪肉脯100g 网红零食小吃靖江肉干肉铺熟食休闲食品 </p>
+                <p class="product2-price">￥23.9</p>
+            </a>
+            <a href="#" class="product2-item">
+                <img src="./img/n3.jpg" alt="" class="product2-img">
+                <p class="product2-name">老字号 光明莫斯利安原味酸奶200g*24盒家庭装</p>
+                <p class="product2-price">￥89.90</p>
+            </a>
+            <a href="#" class="product2-item">
+                <img src="./img/n4.jpg" alt="" class="product2-img">
+                <p class="product2-name">新西兰进口安佳全脂早餐250ML*24盒纯牛奶整箱</p>
+                <p class="product2-price">￥99.0</p>
+            </a>
+            <a href="#" class="product2-item">
+                <img src="./img/n5.jpg" alt="" class="product2-img">
+                <p class="product2-name">爱士堡德国原装进口小麦白啤酒500ml*24整箱装醇正德国啤酒</p>
+                <p class="product2-price">￥119.00</p>
+            </a>
+            <a href="#" class="product2-item">
+                <img src="./img/n6.jpg" alt="" class="product2-img">
+                <p class="product2-name">Danisa皇冠进口送礼丹麦黄油曲奇饼干163g浓郁黄油原味休闲零食</p>
+                <p class="product2-price">￥27.00</p>
+            </a>
+        </div>
+        <br> <br> <br> <br>
+
+        <!-- 底部导航菜单栏 -->
+        <div class="bottom-menu">
+            <a href="./index.html" class="bottom-menu-item">
+                <i class="iconfont icon-index-copy bottom-menu-icon"></i>
+                <p class="bottom-menu-name bottom-menu-name-checked">首页</p>
+            </a>
+            <a href="./classify.html" class="bottom-menu-item">
+                <i class="iconfont icon-fenlei-weixuanzhong bottom-menu-icon"></i>
+                <p class="bottom-menu-name">分类</p>
+            </a>
+            <a href="./shopcar.html" class="bottom-menu-item">
+                <i class="iconfont icon-gouwuche01 bottom-menu-icon"></i>
+                <p class="bottom-menu-name">购物车</p>
+                <p class="bottom-menu-car-num">5</p>
+            </a>
+            <a href="./user.html" class="bottom-menu-item">
+                <i class="iconfont icon-wode-weixuanzhong bottom-menu-icon"></i>
+                <p class="bottom-menu-name">会员</p>
+            </a>
+        </div>
+    </div>
+    <!-- app -->
+
+
+
+
+    <script>
+        new Vue({
+            el: "#app",
+            data: {
+
+            },
+            mounted: function() {
+
+            },
+            methods: {
+                //加载新闻列表
+                Getnews: function() {
+                    axios.get('/user?ID=12345')
+                        .then(function(response) {
+                            console.log(response);
+                        })
+                        .catch(function(error) {
+                            console.log(error);
+                        });
+                },
+            },
+        })
+    </script>
+
+</body>
+
+</html>

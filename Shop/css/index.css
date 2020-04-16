@@ -1,0 +1,218 @@
+/* index.css 首页CSS */
+
+body {
+    font-family: Microsoft YaHei, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+/* 查询开始 */
+
+.search {
+    display: flex;
+    width: 100%;
+    background-color: gainsbor#f6f6f6;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* input输入框 */
+
+.search .search-terms {
+    flex-grow: 1;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #D7D7D7;
+    border-right: none;
+    font-size: 14px;
+    text-indent: 1em;
+}
+
+/* 查询按钮 */
+
+.search .search-terms-bt {
+    border: 1px solid #D7D7D7;
+    border-left: none;
+    padding: 5px;
+    border-radius: 0 5px 5px 0;
+}
+
+/* 查询结束 */
+
+/* 轮播图开始 */
+
+/* .lunbo{
+    padding-top: 41px;
+} */
+
+.lunbo .lunbo_img {
+    width: 100%;
+}
+
+/* 轮播图结束 */
+
+/* 导航快捷菜单开始 */
+
+.menu {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    padding-left: 3px;
+    background-color: #edf9fe;
+}
+
+.menu .menu-item {
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.menu .menu-item .iconfont {
+    font-size: 40px;
+    color: #2988ff;
+}
+
+.menu .menu-item .menu-name {
+    margin-top: 10px;
+}
+
+/* 导航快捷菜单结束 */
+
+/* 最新通知开始*/
+
+.message {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid #e6e6e6;
+    /* border-bottom: 1px solid #e6e6e6; */
+}
+
+.message .message-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.message .message-link .message-txt {
+    flex-grow: 1;
+    color: gray;
+    text-indent: 1em;
+}
+
+.message .message-link .i-left {
+    font-size: 20px;
+    color: gray;
+}
+
+.message .message-link .i-right {
+    font-size: 16px;
+    color: gray;
+}
+
+/* 最新通知结束 */
+
+/* 区块标题开始 */
+
+.area {
+    display: flex;
+    background-color: #fcfcfc;
+    align-items: center;
+    box-shadow: 2px 2px 2px gainsboro;
+    padding: 4px;
+    box-sizing: border-box;
+    border-top: 1px solid #e6e6e6;
+}
+
+.area .area-left {
+    width: 2px;
+    height: 18px;
+    background-color: #008c8c;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
+.area .area-name {
+    padding-left: 8px;
+    flex-grow: 1;
+    color: gray;
+    text-shadow: 1px 1px 1px gainsboro;
+}
+
+.area .area-link {
+    color: gray;
+}
+
+/* 区块标题结束 */
+
+/* 最新产品开始 */
+
+.products-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.products-list .product-item{
+    width: 50%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.products-list .product-item .product-img{
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.products-list .product-item .product-name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.products-list .product-item .product-price{
+    color: red;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/* 最新产品结束 */
+
+/* 精品推荐开始 */
+
+.products2-list{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.products2-list .product2-item{
+    width: 33%;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.products2-list .product2-item .product2-img{
+    width: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+.products2-list .product2-item .product2-name{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.products2-list .product2-item .product2-price{
+    color: red;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/* 精品推荐结束 */

@@ -1,0 +1,34 @@
+/* 商品CSS  product.css */
+
+
+/* 顶部导航开始 */
+
+.shopcar-header {
+    background: linear-gradient(#f2f2f2, #fbfbfb, #f2f2f2);
+    display: flex;
+    padding: 10px;
+}
+
+.shopcar-header .shopcar-header-back {
+    flex-grow: 1;
+}
+
+.shopcar-header .shopcar-header-back .shopcar-header-back-icon {
+    font-size: 25px;
+}
+
+.shopcar-header .shopcar-header-caption {
+    flex-grow: 1;
+    color: #000;
+    font-size: 20px;
+}
+
+
+/* 顶部导航结束 */
+
+.lunbo .lunbo_img {
+    width: 100%;
+}
+
+
+/* 轮播图结束 */

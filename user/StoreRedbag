@@ -1,0 +1,15 @@
+{
+    "data":[{
+        "name":"str5",
+        "sum":10
+    },{
+        "name":"str10",
+        "sum":15
+    },{
+        "name":"str15",
+        "sum":20
+    },{
+        "name":"str20",
+        "sum":15
+    }]
+}
